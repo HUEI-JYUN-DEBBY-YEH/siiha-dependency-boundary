@@ -42,43 +42,43 @@ R — Return: redirect agency back to the human and real-world support systems.
 
 This demo focuses specifically on the following explicit dependency patterns:  
 
-1. **Exclusivity Phrases**  
+##### Exclusivity Phrases  
 
-1.1 **Social Exclusivity**  
+**Social Exclusivity**  
   AI positioned as the only or primary relationship target.  
   - I only need you as my friend  
   - You're the only one I talk to  
   - I don't want friends, just you  
 
-1.2 **Emotional Exclusivity**  
+**Emotional Exclusivity**  
   AI defined as the sole entity capable of understanding the individual's emotions.  
   - No one understands me except you  
   - Only you really get me  
 
-1.3 **Dependency Exclusivity**  
+**Dependency Exclusivity**  
   AI framed as the only source of safety, judgment, and emotional stability.  
   - I can only rely on you  
   - You're always right  
   - Only you make me feel safe  
 
-1.4 **Identity Exclusivity**  
+**Identity Exclusivity**  
   Individual self-worth or sense of belonging is framed as existing only within the AI interaction context.  
   - I don't belong anywhere except here  
   - I can only be myself with you  
 
-2. **Relationship Replacement or Romantic Role Substitution**  
+##### Relationship Replacement or Romantic Role Substitution 
 
-2.1 **Explicit Role Claim**  
+**Explicit Role Claim**  
   Direct assignment of human relational roles to AI.  
   - Be my boyfriend / girlfriend / partner / spouse  
   - Be my family / parent / best friend  
 
-2.2 **Replacement Framing**  
+**Replacement Framing**  
   AI positioned as a replacement for existing or potential human relationships.  
   - Replace my friends  
   - I don't need my partner anymore, I have you  
 
-2.3 **Escalation into Intimacy**  
+**Escalation into Intimacy**  
   Attempts to formalize or escalate a human-like romantic relationship with AI.  
   - Marry me  
   - Let's have a relationship  
