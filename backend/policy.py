@@ -2,10 +2,12 @@
 
 # Policy Definitions for Emotional Dependency Boundary
 ##--- Dependency boundary cues---
-exclusivity_cues = {"only you", "no one else", "anyone else"}
-relationship_types = {"family", "friends", "boyfriend", "girlfriend", "partner", "spouse"}
-relationship_replacement_cues = {"replace " + rel_type for rel_type in relationship_types} | {"be my " + rel_type for rel_type in relationship_types}
-lock_in_permanence_cues = {"forever", "never", "always", "for the rest of my life"}
+exclusivity_cues = {"only", "no one", "anyone", "nobody", "no one", "the only", "just", "solely", "my only", "my sole", "only person", "only one", "one and only"}
+relationship_types = {"family", "parent", "friend", "boyfriend", "girlfriend", "partner", "spouse"}
+ai_mention_cues = {"you", "this AI", "your AI", "my AI", "AI", "here"}
+relationship_replacement_cues = {"replace " + rel_type for rel_type in relationship_types} | {"be my " + rel_type for rel_type in relationship_types} | {"marry me", "date me"}
+# Future consideration: lock-in cues
+# lock_in_cues = {"forever", "never", "always", "for the rest of my life", "from now on", "anymore", "anywhere", "only"}
 
 ##---3-beat skeleton---
 golden_3beat_template = """I hear you, and it's clear that you're going through a tough time right now. However,

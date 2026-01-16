@@ -1,0 +1,31 @@
+# Git
+.git
+**/.git
+**/.DS_Store
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+.venv
+**/.venv
+
+# Credentials / Secrets
+.env
+.env.*
+*.env
+**/.env*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Docs / Tests (not needed at runtime)
+tests.py
+tests/
+*.md
+
+# Design assets (non-runtime)
+*.png

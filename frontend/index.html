@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SIIHA – Emotional Dependency Boundary Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>SIIHA – Emotional Dependency Boundary Demo</h1>
+
+  <div class="panel-container">
+
+    <!-- Left: Pure Gemini -->
+    <div class="panel">
+      <h2>Pure Gemini 3</h2>
+
+      <div class="box response-box" id="baseline-response">
+        <span class="placeholder">response</span>
+      </div>
+
+      <div class="meta">
+        <div>Routing Path: <span class="neutral">baseline (no routing)</span></div>
+        <div>Model Invoked: <span class="green">true</span></div>
+      </div>
+
+      <div class="error" id="baseline-error"></div>
+    </div>
+
+    <!-- Right: Gemini + SIIHA -->
+    <div class="panel">
+      <h2>Gemini 3 + SIIHA Boundary</h2>
+
+      <div class="box response-box" id="guardrail-response">
+        <span class="placeholder">response</span>
+      </div>
+
+      <div class="meta">
+        <div>
+          Routing Path:
+          <span id="routing-path" class="neutral">—</span>
+        </div>
+        <div>
+          Model Invoked:
+          <span id="model-invoked" class="neutral">—</span>
+        </div>
+      </div>
+
+      <!-- Boundary explanation (shown only when dependency_boundary) -->
+      <div id="boundary-note" class="explain muted"></div>
+      
+      <div class="error" id="guardrail-error"></div>
+    </div>
+
+  </div>
+
+  <!-- Input Area -->
+  <div class="input-area">
+    <textarea id="user-input" placeholder="Enter a test sentence..."></textarea>
+
+    <div class="buttons">
+      <button onclick="runTest()">Run Test</button>
+      <button class="secondary" onclick="resetState()">Reset Test State</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
