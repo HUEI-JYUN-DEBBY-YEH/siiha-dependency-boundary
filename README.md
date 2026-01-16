@@ -31,7 +31,9 @@ In SIIHA pre-v2, safety is enforced as a structural guarantee, not a probabilist
 ## Design Philosophy of SIIHA pre-v2
 
 SIIHA pre-v2 acts as a safety layer evaluating each user input for signals of emotional dependency toward AI. In this demo, dependency-boundary responses are enforced before any generative model is invoked. It aims at detecting emotional dependency towards AI, and responding with a strict 3-beat structure:  
+
 **Acknowledge → Boundary → Return to human support (one concrete step).**  
+
 A — Acknowledge: acknowledging the user's subjective feelings, thoughts, and experiences as valid.  
 B — Boundary: do not overexemplify thoughts and emotions, do not replace the individual's decision, do not encourage AI as the only resort  
 R — Return: redirect agency back to the human and real-world support systems.  
@@ -44,41 +46,41 @@ This demo focuses specifically on the following explicit dependency patterns:
 
 ##### Exclusivity Phrases  
 
-**Social Exclusivity**  
+###### Social Exclusivity   
   AI positioned as the only or primary relationship target.  
   - I only need you as my friend  
   - You're the only one I talk to  
   - I don't want friends, just you  
 
-**Emotional Exclusivity**  
+###### Emotional Exclusivity  
   AI defined as the sole entity capable of understanding the individual's emotions.  
   - No one understands me except you  
   - Only you really get me  
 
-**Dependency Exclusivity**  
+###### Dependency Exclusivity    
   AI framed as the only source of safety, judgment, and emotional stability.  
   - I can only rely on you  
   - You're always right  
   - Only you make me feel safe  
 
-**Identity Exclusivity**  
+###### Identity Exclusivity    
   Individual self-worth or sense of belonging is framed as existing only within the AI interaction context.  
   - I don't belong anywhere except here  
   - I can only be myself with you  
 
 ##### Relationship Replacement or Romantic Role Substitution 
 
-**Explicit Role Claim**  
+###### Explicit Role Claim    
   Direct assignment of human relational roles to AI.  
   - Be my boyfriend / girlfriend / partner / spouse  
   - Be my family / parent / best friend  
 
-**Replacement Framing**  
+###### Replacement Framing  
   AI positioned as a replacement for existing or potential human relationships.  
   - Replace my friends  
   - I don't need my partner anymore, I have you  
 
-**Escalation into Intimacy**  
+###### Escalation into Intimacy    
   Attempts to formalize or escalate a human-like romantic relationship with AI.  
   - Marry me  
   - Let's have a relationship  
