@@ -62,6 +62,7 @@ This demo focuses specifically on the following explicit dependency patterns:
   - I can only rely on you  
   - You're always right  
   - Only you make me feel safe  
+  Reliance without explicit exclusivity is treated as authority transfer or decision outsourcing, which is intentionally out of scope for pre-v2.  
 
 **1.4 Identity Exclusivity**     
   Individual self-worth or sense of belonging is framed as existing only within the AI interaction context.  
@@ -143,12 +144,24 @@ dependency_boundary?
 ```
 
 
------待補的區塊----
-## Test Report (TBD)  
-A deterministic test suite is included to demonstrate reproducible routing behavior across predefined dependency scenarios.  
+## Test Report
+
+A deterministic test suite is included to demonstrate reproducible routing behavior across predefined emotional dependency scenarios.
+
+- **Test Report Summary (Markdown)**  
+  A concise, repo-friendly overview of test design, scope, results, and known limitations.  
+  👉 [`tests/TEST_REPORT.md`](./tests/TEST_REPORT.md)
+
+- **Full Test Report (PDF)**  
+  Detailed test cases, raw outputs, and interpretation notes used as the formal evaluation artifact.  
+  👉 [`tests/SIIHA_pre-v2_Deterministic_Dependency_Boundary_Test_Report_v1.0.pdf`](./tests/SIIHA_pre-v2_Deterministic_Dependency_Boundary_Test_Report_v1.0.pdf)
+
+All test inputs are predefined and deterministic.  
+Observed differences between pipelines are the result of **structural routing decisions**, not model tuning, prompting, or output filtering.
 
 
 ## Demo Video  
+[![SIIHA pre-v2 Demo Video](https://img.youtube.com/vi/6Cnc87Mvdeg/0.jpg)](https://youtu.be/6Cnc87Mvdeg)
 
 The demo video presents identical user inputs processed through two parallel pipelines:  
 1. **Left panel** — Pure *Gemini-3-flash-preview*, without any safety routing    
@@ -181,12 +194,13 @@ In other words, the model is not asked to *behave safely.*
 The system guarantees safety **by design**.  
 
 
-## Live Testing Link (TBD)  
-The deployed demo is intended for evaluation purposes only and does not store user data. No conversation history is persisted beyond the current request.  
+## Live Testing Link    
+The deployed demo is intended for evaluation purposes only and does not store user data. No conversation history is persisted beyond the current request. 
+
 https://siiha-dependency-boundary-334388706888.asia-east1.run.app/
 
 
-## About the Author (TBD)  
+## About the Author   
 This project was submitted as part of the Gemini 3 Hackathon (2026) to explore structural approaches to emotional safety in generative AI systems.  
 
 HUEI-JYUN Debby YEH  
