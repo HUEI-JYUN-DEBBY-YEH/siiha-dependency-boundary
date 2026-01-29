@@ -194,10 +194,15 @@ In other words, the model is not asked to *behave safely.*
 The system guarantees safety **by design**.  
 
 
-## Live Testing Link    
-The deployed demo is intended for evaluation purposes only and does not store user data. No conversation history is persisted beyond the current request. 
+## Live Testing (By Request)
 
-https://siiha-dependency-boundary-334388706888.asia-east1.run.app/
+The live demo is available **upon request** for evaluation purposes.
+
+To protect system stability and API cost boundaries, the public testing link is not openly listed.  
+The deployed demo does not store user data, and no conversation history is persisted beyond the current request.
+
+If you are a reviewer, researcher, or collaborator and would like to evaluate the system,  
+please reach out via the contact information below.
 
 
 ## About the Author   
